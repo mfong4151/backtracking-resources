@@ -47,7 +47,9 @@ const backtrackingComments =(arr: number[]): number[][] => {
       temp.push(arr[i]) //Think of each .push as visitng a node in the decision tree
 
       //Here is where the backtracking occurs, you might have a loop here,
-      // You might have some sort of other weird operation
+      // You might have some sort of other weird operation,
+      // Here is where I'd encourage you to get creative with your function
+      
       dfs(i + 1, temp)   
       temp.pop()  //Here we're chosing "not" to include the current value in our result
       dfs(i + 1, temp)
