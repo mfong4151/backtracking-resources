@@ -1,5 +1,10 @@
 # backtracking-resources
 
+## Prerequisite topics
+
+- Trees
+- Recursion
+- DFS
 
 ## Abstract/High Level
 Recognizing a backtracking problem:
@@ -23,6 +28,11 @@ Creating a proper decision tree representation can be helpful to understanding i
 
 Decision trees are also important for determining if the problem your working with is a DP problem instead of a backtracking problem. In an interview this makes the difference between you recongize the correct solution and a wrong one.
 
+## 1D vs 2D Backtracking
+
+
+
+
 ## Time/space complexity
 
 Much of the time and space complexity can be understood through probability. Below chapter 1 by Blitztein and Hwang makes for a good supplemental reading if you want to know more.
@@ -41,6 +51,8 @@ O(k * c ^ n)
 
 Or more commonly O(c ^ n)
 
+So for the problem "subsets," it is O(2^n) because at every step, you have two choices, and N items
+
 
 ## Interviewing
 
@@ -49,6 +61,7 @@ I can speak from experience that the most important thing when getting a backtra
 ## Resources
 
 - https://www.youtube.com/watch?v=Zq4upTEaQyM
+- https://www.youtube.com/watch?v=REOH22Xwdkk
 - https://github.com/Honei/bookshelf/blob/master/Math/Blitzstein%20J.K.%2C%20Hwang%20J.-Introduction%20to%20Probability-CRC%20(2015).pdf
 - https://en.wikipedia.org/wiki/Decision_tree
 - https://www.youtube.com/watch?v=xFv_Hl4B83A
