@@ -23,13 +23,13 @@ Look at the constraints, small array size is usually indicative of a backtrackin
 
 Creating a proper decision tree representation can be helpful to understanding if the problem is a backtrakcing problem or not. You should be doing this basically for any problem in which you have "choices".
 
-
 ## DP/Backtracking
 
 Decision trees are also important for determining if the problem your working with is a DP problem instead of a backtracking problem. In an interview this makes the difference between you recongize the correct solution and a wrong one.
 
-## 1D vs 2D Backtracking
+https://leetcode.com/problems/climbing-stairs/
 
+## 1D vs 2D Backtracking
 
 
 
